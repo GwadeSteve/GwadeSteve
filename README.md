@@ -79,25 +79,27 @@ class ComputerVisionResearcher:
             "StudyMate": "AI-powered study assistant with NLP",
             "PlumVision": "Real-time fruit quality inspection system",
         }
-        self.fun_fact = "I participated in the GIZ PADGOF Hackathon as a finalist with an innovative e-governance solution!"
+        self.fun_fact = "I once tried to train an AI to pick my outfits… now it thinks hoodies are formal wear ... '-'"
         
     def say_hello(self):
-        print("👋 Thanks for stopping by! Let's build something transformative together.")
-        print("🚀 I'm passionate about leveraging AI to solve real challenges in Africa.")
+        print("👋 Thanks for stopping by!")
+        print("🚀 I'm passionate about leveraging AI to solve real challenges in Africa and beyond.")
         
     def research_interests(self):
-        return [
-            "Ethically responsible AI development for diverse populations",
-            "Low-resource computer vision for African contexts",
-            "Edge AI deployment for regions with limited connectivity",
-            "Sustainable and accessible technology solutions"
-        ]
-        
-    def current_focus(self):
-        print("📱 Building mobile-first CV applications that work offline")
-        print("🌍 Creating AI models that understand African contexts")
-        print("📊 Developing computer vision for food security and nutrition")
-        print("📚 Researching efficient ML architectures for limited resources")
+    return [
+        "Ethically responsible AI development for African contexts",
+        "Low-resource computer vision for regions with limited connectivity",
+        "Federated learning for healthcare applications in developing regions",
+        "AI-powered food security and nutrition analysis systems",
+        "Edge device optimization for computer vision deployment"
+    ]
+    
+  def current_focus(self):
+      print("📱 Building offline-capable CV applications for limited-connectivity environments")
+      print("🌍 Creating AI models that understand and address African challenges")
+      print("📊 Developing vision-based systems for food security and nutrition in Cameroon")
+      print("🔬 Researching Federated Learning approaches for malaria diagnosis")
+      print("⚙️ Optimizing AI models for deployment on resource-constrained devices")
 
 
 me = ComputerVisionResearcher()
