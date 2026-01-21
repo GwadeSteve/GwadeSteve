@@ -56,9 +56,8 @@ class AIResearchEngineer:
     def __init__(self):
         self.name = "Gwade Steve"
         self.education = {
-            "current": "MSc in Data Science & AI @ National Higher Polytechnic School of Douala",
-            "completed": "BSc in Computer Engineering"
-        }
+            "current": "ML Research Engineer & FullStack Developer",
+            "completed": ["BSc in Computer Engineering", "MSc in Data Science and AI"]
         self.location = "Cameroon"
         self.focus_areas = [
             "AI for Health and Well being",
@@ -77,7 +76,7 @@ class AIResearchEngineer:
             "devtools": ["Git", "Docker", "AWS", "Render", "CI/CD"]
         }
         self.current_work = {
-            "thesis": "Multi-Task Transfer Learning for Malaria Detection",
+            "MSc_thesis": "Multi-Task Transfer Learning for Malaria Detection",
             "projects": ["EatWise", "StudyMate", "PlumVision"]
         }
         self.fun_fact = "Once tried training an AI to pick my outfits. Now it thinks hoodies are business casual :("
@@ -93,6 +92,7 @@ class AIResearchEngineer:
         ]
     
     def current_focus(self):
+        print("SOLVING REAL PROBLEMS USING RESEARCH AS A TOOL")
         print("Developing offline-capable AI for areas with limited connectivity")
         print("Researching multi-task learning for medical imaging")
         print("Building computer vision systems for African contexts")
