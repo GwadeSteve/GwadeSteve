@@ -2,7 +2,7 @@
   
 # **GWADE STEVE**
 
-### *Software Developer & Aspiring AI Research Engineer*
+### *Full-Stack AI Engineer & Aspiring ML Research Engineer*
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=4E64F7&center=true&vCenter=true&random=false&width=435&lines=Computer+Vision+Research;AI+%26+Machine+Learning;Full-Stack+Development;Problem+Solving" alt="Typing SVG" />
@@ -73,7 +73,7 @@ class AIResearchEngineer:
             "vision_tools": ["OpenCV", "YOLO", "MediaPipe", "CoreML"],
             "web_dev": ["React", "Node.js", "Flask", "FastAPI", "Django"],
             "databases": ["MongoDB", "PostgreSQL", "SQLite", "Firebase"],
-            "devtools": ["Git", "Docker", "AWS", "Render", "CI/CD"]
+            "devtools": ["Git", "Docker", "GCP", "Render", "CI/CD"]
         }
         self.current_work = {
             "MSc_thesis": "Multi-Task Transfer Learning for Malaria Detection",
